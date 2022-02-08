@@ -18,7 +18,7 @@ struct Person {
 }
 
 extension Person {
-    private func getContactList() -> [Person] {
+    static func getContactList() -> [Person] {
         
         var persons: [Person] = []
         
